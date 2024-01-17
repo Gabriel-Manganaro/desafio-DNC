@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+#cabecario{
+    background-color: #303030;
+    width: 100%;
+    height: 350px; 
+    display: grid;
+
+}
+#textoPrincipal{
+    width: 1054px;
+    margin-left: 62px;
+    margin-top: 180px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+#paragrafoPrincipal{
+    width: 1024px;
+    margin-left: 62px;
+    color:#ffffff;
+    font-weight: 500;
+    size: 10px;
+    margin-bottom: 60px;
+}
+#dados{
+    width: 100%;
+}
+#text{ 
+    display: grid;
+    grid-auto-flow: column;
+    grid-column: auto;
+}
+#texto{
+    margin-top: 120px;
+    margin-left: 77px;
+}
+#texto h1{
+    margin-bottom: 25px;
+}
+#foto{
+   
+    width: 530px;
+    height: 515px;
+    top: 781px;
+    left: 876px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+#forms{
+    text-align: center;
+    background-color: #303030;
+    display: grid;
+    height: 500px; 
+}
+#forms h1{
+    margin-top: 85px;
+    margin-bottom: 45px;
+    color: #ffffff;
+}
+#forms input{
+    width: 458px;
+    height: 52px;
+    top: 1661px;
+    left: 466px;
+    border-radius: 10px;
+}
+#botao{
+    width: 253px;
+    height: 45px;
+    top: 1977px;
+    left: 623px;
+    font-family: 'Raleway', sans-serif;
+    background: #C07212;
+    border-radius: 10px;
+    size: 30px;
+    line-height: 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+#botao:hover{
+    transform: translateY(-5px);
+}
+#forms input:hover{
+    transform: translateY(-5px);
+}
